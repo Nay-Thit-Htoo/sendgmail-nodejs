@@ -15,8 +15,8 @@ let transporter = nodemail.createTransport({
 
 //step 2
 let mailOptions = {
-    from: 'naythit365@gmail.com',
-    to: 'naythithtoo000@gmail.com',
+    from: 'sender@gmail.com',
+    to: 'receiver@gmail.com',
     subject: 'Testing E-mail',
     text: 'Hello, This is email testing',
     attachments: [{
